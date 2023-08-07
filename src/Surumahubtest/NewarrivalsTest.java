@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import Surumahubpages.Newarrivalsclickpage;
 
-public class NewarrivalsTest {
+public class NewarrivalsTest  extends Baseclass{
 	 WebDriver driver;
 		@BeforeTest
 		public void setup()

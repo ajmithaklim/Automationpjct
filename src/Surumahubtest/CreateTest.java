@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import Surumahubpages.Createacpage;
 
-public class CreateTest {
+public class CreateTest extends Baseclass{
 	WebDriver driver;
 	 
 @BeforeTest
@@ -24,7 +24,7 @@ public void register() throws InterruptedException
 Thread.sleep(6000);
 Createacpage ob = new  Createacpage (driver);
 ob.setValue1("ammu");
-ob.setValue2("annjjuudvafm@gmail.com");
+ob.setValue2("annjjhhjhhuudvafm@gmail.com");
 ob.setValue3("6988788999");
 ob.submit();
 }
